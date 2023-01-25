@@ -1,0 +1,71 @@
+.topo{
+    background: #5a5555;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff
+}
+
+.title{
+    background: #5a5555;
+    color:#ffffff;
+    padding: 5px
+}
+
+.grade{
+    background:#3e6b48;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu{
+    padding: 30px;
+    scale: 1.5
+}
+
+.menu:hover{
+    transition: 0.5s;
+    transform: scale(2);
+}
+
+
+.jogo{
+    position:relative;  
+}
+
+.jogo h1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+    opacity: 0
+}
+
+.jogo:hover h1{
+    opacity:1
+}
+
+.jogo:hover {
+    transition: 0.3s;
+    color: #000000;
+    transform: scale(1.2); 
+    
+}
+
+.imagem:hover{
+    transition: 0.3s;
+    transform: scale(1.5)
+}
+
+img{
+    border: solid #f2dfb1
+}
+
+img:hover{
+    border: solid #AF3F27
+}
+
+img{
+    border-radius: 30px;
+}
